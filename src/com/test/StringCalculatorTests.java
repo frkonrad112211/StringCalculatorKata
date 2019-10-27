@@ -223,9 +223,9 @@ public class StringCalculatorTests {
     }
 
     @Test
-    public void supportsBothBracketsAsDelimiter() {
-        String testedString = "//[[]]\n1[]4";
+    public void supportsMultipleDelimiters(){
+        String testedString = "//[*][%]\n1*2%3";
 
-        assertEquals(5, stringCalculator.add(testedString));
+        assertEquals(6, stringCalculator.add(testedString));
     }
 }
