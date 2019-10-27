@@ -4,10 +4,20 @@ import static java.util.Arrays.stream;
 
 public class StringCalculator {
     public int add(String numbersString) {
-        numbersString = addZeroIfStringIsEmpty(numbersString);
-        String[] numbersStringDivided = divideNumberString(numbersString, ",");
-        int[] numbers = castNumberStringToIntArray(numbersStringDivided);
-        return sumNumbers(numbers);
+        String delimiter = ",";
+        String[] numberStringLines = splitNumbersStringToLines(numbersString);
+        int sum = 0;
+        for (String oneNumbersLine : numberStringLines) {
+            oneNumbersLine = addZeroIfStringIsEmpty(oneNumbersLine);
+            String[] numbersLineDivided = divideNumberString(oneNumbersLine, delimiter);
+            int[] numbers = castNumberStringToIntArray(numbersLineDivided);
+            sum += sumNumbers(numbers);
+        }
+        return sum;
+    }
+
+    private String[] splitNumbersStringToLines(String numbersString) {
+        return numbersString.split("\n");
     }
 
     private String addZeroIfStringIsEmpty(String numbersString) {
