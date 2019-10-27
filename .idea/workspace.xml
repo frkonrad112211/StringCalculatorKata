@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f295ada2-4b6c-4ea5-a4e4-26e3728ccb6c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SmUS4yQZG8gmO269PJZyjsyiVp" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.calculator" />
+      <recent name="com.test.calculator" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.StringCalculatorTests">
+    <configuration name="StringCalculatorTest2.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculatorKata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.calculator.StringCalculatorTest2" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculatorKata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTests.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculatorKata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTests.sumsStringWithNumbersWhichHaveDifferentDigitsLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculatorKata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
+      <option name="METHOD_NAME" value="sumsStringWithNumbersWhichHaveDifferentDigitsLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.test in StringCalculatorKata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculatorKata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.com.test in StringCalculatorKata" />
+      <item itemvalue="JUnit.StringCalculatorTest2.add" />
+      <item itemvalue="JUnit.StringCalculatorTests.add" />
+      <item itemvalue="JUnit.StringCalculatorTests" />
+      <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithNumbersWhichHaveDifferentDigitsLength" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StringCalculatorTests" />
+        <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithNumbersWhichHaveDifferentDigitsLength" />
+        <item itemvalue="JUnit.StringCalculatorTests.add" />
+        <item itemvalue="JUnit.StringCalculatorTest2.add" />
+        <item itemvalue="JUnit.com.test in StringCalculatorKata" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f295ada2-4b6c-4ea5-a4e4-26e3728ccb6c" name="Default Changelist" comment="" />
+      <created>1572168260475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572168260475</updated>
+      <workItem from="1572168266198" duration="2207000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
