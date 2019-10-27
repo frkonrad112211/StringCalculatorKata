@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f295ada2-4b6c-4ea5-a4e4-26e3728ccb6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculatorKata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculatorKata.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hamcrest-core-1.3-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hamcrest-core-1.3-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-4.12-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-4.12-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/calculator/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/calculator/StringCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/test/StringCalculatorTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/calculator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/calculator/StringCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/StringCalculatorTests.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +45,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -65,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLinesWithNumbersBiggerThanThousand">
+  <component name="RunManager" selected="JUnit.StringCalculatorTests">
     <configuration name="StringCalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculatorKata" />
       <extension name="coverage">
@@ -155,11 +174,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTests" />
         <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLinesWithNumbersBiggerThanThousand" />
         <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLines" />
         <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengths" />
         <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLength" />
-        <item itemvalue="JUnit.StringCalculatorTests" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572168260475</updated>
-      <workItem from="1572168266198" duration="17456000" />
+      <workItem from="1572168266198" duration="18818000" />
     </task>
     <servers />
   </component>
