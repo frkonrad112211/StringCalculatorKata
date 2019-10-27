@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f295ada2-4b6c-4ea5-a4e4-26e3728ccb6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/calculator/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/calculator/StringCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/calculator/StringCalculator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/test/StringCalculatorTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/test/StringCalculatorTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/calculator/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/calculator/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/calculator/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/test/StringCalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/StringCalculatorTests.java" afterDir="false" />
     </list>
@@ -69,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTests.supportsMultipleDelimiters">
+  <component name="RunManager" selected="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLinesWithNumbersBiggerThanThousand">
     <configuration name="StringCalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculatorKata" />
       <extension name="coverage">
@@ -86,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTests.supportsBothBracketsAsDelimiter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculatorKata" />
       <extension name="coverage">
         <pattern>
@@ -96,13 +98,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
-      <option name="METHOD_NAME" value="supportsBothBracketsAsDelimiter" />
+      <option name="METHOD_NAME" value="sumsStringWithMultipleDelimitersOfDifferentLength" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTests.supportsLeftBracketAsDelimiter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengths" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculatorKata" />
       <extension name="coverage">
         <pattern>
@@ -112,13 +114,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
-      <option name="METHOD_NAME" value="supportsLeftBracketAsDelimiter" />
+      <option name="METHOD_NAME" value="sumsStringWithMultipleDelimitersOfDifferentLengths" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTests.supportsMultipleDelimiters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculatorKata" />
       <extension name="coverage">
         <pattern>
@@ -128,13 +130,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
-      <option name="METHOD_NAME" value="supportsMultipleDelimiters" />
+      <option name="METHOD_NAME" value="sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLines" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTests.supportsRightBracketAsDelimiter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLinesWithNumbersBiggerThanThousand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculatorKata" />
       <extension name="coverage">
         <pattern>
@@ -144,7 +146,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
-      <option name="METHOD_NAME" value="supportsRightBracketAsDelimiter" />
+      <option name="METHOD_NAME" value="sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLinesWithNumbersBiggerThanThousand" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,17 +154,17 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.StringCalculatorTests" />
-      <item itemvalue="JUnit.StringCalculatorTests.supportsBothBracketsAsDelimiter" />
-      <item itemvalue="JUnit.StringCalculatorTests.supportsMultipleDelimiters" />
-      <item itemvalue="JUnit.StringCalculatorTests.supportsRightBracketAsDelimiter" />
-      <item itemvalue="JUnit.StringCalculatorTests.supportsLeftBracketAsDelimiter" />
+      <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLength" />
+      <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengths" />
+      <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLines" />
+      <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLinesWithNumbersBiggerThanThousand" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCalculatorTests.supportsMultipleDelimiters" />
-        <item itemvalue="JUnit.StringCalculatorTests.supportsLeftBracketAsDelimiter" />
-        <item itemvalue="JUnit.StringCalculatorTests.supportsRightBracketAsDelimiter" />
-        <item itemvalue="JUnit.StringCalculatorTests.supportsBothBracketsAsDelimiter" />
+        <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLinesWithNumbersBiggerThanThousand" />
+        <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLines" />
+        <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLengths" />
+        <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithMultipleDelimitersOfDifferentLength" />
         <item itemvalue="JUnit.StringCalculatorTests" />
       </list>
     </recent_temporary>
@@ -177,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572168260475</updated>
-      <workItem from="1572168266198" duration="15006000" />
+      <workItem from="1572168266198" duration="16688000" />
     </task>
     <servers />
   </component>

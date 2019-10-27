@@ -209,23 +209,44 @@ public class StringCalculatorTests {
     }
 
     @Test
-    public void supportsLeftBracketAsDelimiter() {
-        String testedString = "//[[]\n1[4";
-
-        assertEquals(5, stringCalculator.add(testedString));
-    }
-
-    @Test
-    public void supportsRightBracketAsDelimiter() {
-        String testedString = "//[]]\n1]4";
-
-        assertEquals(5, stringCalculator.add(testedString));
-    }
-
-    @Test
-    public void supportsMultipleDelimiters(){
+    public void sumsStringWithMultipleDelimiters() {
         String testedString = "//[*][%]\n1*2%3";
 
         assertEquals(6, stringCalculator.add(testedString));
+    }
+
+    @Test
+    public void sumsStringWithMultipleDelimitersAndNewLine() {
+        String testedString = "//[*][%]\n1*2%3\n1*2%3";
+
+        assertEquals(12, stringCalculator.add(testedString));
+    }
+
+    @Test
+    public void sumsStringWithMultipleDelimitersAndMultipleNewLines() {
+        String testedString = "//[*][%]\n1*2%3\n1*2%3\n2%3";
+
+        assertEquals(17, stringCalculator.add(testedString));
+    }
+
+    @Test
+    public void sumsStringWithMultipleDelimitersOfDifferentLengths() {
+        String testedString = "//[***][%%][&]\n1***2%%3&1***2%%3&2%%3&1";
+
+        assertEquals(18, stringCalculator.add(testedString));
+    }
+
+    @Test
+    public void sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLines() {
+        String testedString = "//[***][%%][&]\n1***2%%3\n1***2%%3\n2%%3&1";
+
+        assertEquals(18, stringCalculator.add(testedString));
+    }
+
+    @Test
+    public void sumsStringWithMultipleDelimitersOfDifferentLengthsWithNewLinesWithNumbersBiggerThanThousand() {
+        String testedString = "//[***][%%][&]\n1005***2%%3\n1***2%%3\n2%%1025&1";
+
+        assertEquals(14, stringCalculator.add(testedString));
     }
 }
