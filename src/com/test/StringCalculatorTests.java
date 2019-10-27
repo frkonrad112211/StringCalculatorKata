@@ -91,4 +91,52 @@ public class StringCalculatorTests {
         assertEquals(6, stringCalculator.add(testedString));
     }
 
+    @Test
+    public void sumsStringWithOneNewDelimiter() {
+        String testedString = "//;\n1;2";
+
+        assertEquals(3, stringCalculator.add(testedString));
+    }
+
+    @Test
+    public void sumsStringWithThreeNewDelimiter() {
+        String testedString = "//;\n1;2\n//***\n1***2***3\n//#####\n1#####2#####3#####4";
+
+        assertEquals(19, stringCalculator.add(testedString));
+    }
+
+    @Test
+    public void sumsStringWithOneNewDelimiterAndOneNewLine() {
+        String testedString = "//;\n1;2\n1";
+
+        assertEquals(4, stringCalculator.add(testedString));
+    }
+
+    @Test
+    public void sumsStringWithThreeNewDelimiterAndOneNewLine() {
+        String testedString = "//;\n1;2\n//***\n1***2***3\n1***2***3\n//#####\n1#####2#####3#####4";
+
+        assertEquals(25, stringCalculator.add(testedString));
+    }
+
+    @Test
+    public void sumsStringWithThreeNewDelimiterAndTwoNewLines() {
+        String testedString = "//;\n1;2\n//***\n1***2***3\n1***2***3\n//#####\n1#####2\n3#####4";
+
+        assertEquals(25, stringCalculator.add(testedString));
+    }
+
+    @Test
+    public void sumsStringWithDelimiterAsSpecialSign() {
+        String testedString = "//-+/*x^X\n1-+/*x^X2";
+
+        assertEquals(3, stringCalculator.add(testedString));
+    }
+
+    @Test
+    public void sumsStringWithDelimiterAsASentence() {
+        String testedString = "//Lorem ipsum dolor sit amet.\n1Lorem ipsum dolor sit amet.2";
+
+        assertEquals(3, stringCalculator.add(testedString));
+    }
 }

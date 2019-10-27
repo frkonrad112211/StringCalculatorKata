@@ -1,19 +1,33 @@
 package com.calculator;
 
+import java.util.regex.Pattern;
+
 import static java.util.Arrays.stream;
 
 public class StringCalculator {
     public int add(String numbersString) {
         String delimiter = ",";
-        String[] numberStringLines = splitNumbersStringToLines(numbersString);
+        String[] lines = splitNumbersStringToLines(numbersString);
         int sum = 0;
-        for (String oneNumbersLine : numberStringLines) {
-            oneNumbersLine = addZeroIfStringIsEmpty(oneNumbersLine);
-            String[] numbersLineDivided = divideNumberString(oneNumbersLine, delimiter);
-            int[] numbers = castNumberStringToIntArray(numbersLineDivided);
-            sum += sumNumbers(numbers);
+        for (String oneLine : lines) {
+            oneLine = addZeroIfStringIsEmpty(oneLine);
+            if (hasDelimiterChanged(oneLine)) {
+                delimiter = getNewDelimiter(oneLine);
+            } else {
+                String[] numbersLineDivided = divide(oneLine, delimiter);
+                int[] numbers = parseToIntArray(numbersLineDivided);
+                sum += sumNumbers(numbers);
+            }
         }
         return sum;
+    }
+
+    private String getNewDelimiter(String line) {
+        return line.replace("//", "");
+    }
+
+    private boolean hasDelimiterChanged(String line) {
+        return line.startsWith("//");
     }
 
     private String[] splitNumbersStringToLines(String numbersString) {
@@ -29,13 +43,13 @@ public class StringCalculator {
                 .sum();
     }
 
-    private int[] castNumberStringToIntArray(String[] numbersStringDivided) {
+    private int[] parseToIntArray(String[] numbersStringDivided) {
         return stream(numbersStringDivided)
                 .mapToInt(Integer::parseInt)
                 .toArray();
     }
 
-    private String[] divideNumberString(String numbersString, String delimiter) {
-        return numbersString.split(delimiter);
+    private String[] divide(String numbersString, String delimiter) {
+        return Pattern.compile(delimiter, Pattern.LITERAL).split(numbersString);
     }
 }
