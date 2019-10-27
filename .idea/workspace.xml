@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f295ada2-4b6c-4ea5-a4e4-26e3728ccb6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/calculator/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/calculator/StringCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/calculator/StringCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/test/StringCalculatorTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringCalculatorKata/com/test/StringCalculatorTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/calculator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/calculator/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/calculator/StringCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/StringCalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/StringCalculatorTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572168260475</updated>
-      <workItem from="1572168266198" duration="16688000" />
+      <workItem from="1572168266198" duration="17312000" />
     </task>
     <servers />
   </component>
