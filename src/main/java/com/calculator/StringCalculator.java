@@ -14,12 +14,12 @@ public class StringCalculator {
         String[] lines = splitToSeparateLines(numbersString);
         int sum = 0;
 
-        for (String oneLine : lines) {
-            oneLine = addZeroIfStringIsEmpty(oneLine);
-            if (hasDelimiterChanged(oneLine)) {
-                delimiters = getNewDelimiters(oneLine);
+        for (String line : lines) {
+            line = addZeroIfStringIsEmpty(line);
+            if (hasDelimiterChanged(line)) {
+                delimiters = getNewDelimiters(line);
             } else {
-                String[] numbersLineDivided = divide(oneLine, delimiters);
+                String[] numbersLineDivided = divide(line, delimiters);
                 int[] numbers = stream(numbersLineDivided)
                         .mapToInt(Integer::parseInt)
                         .toArray();
