@@ -139,4 +139,44 @@ public class StringCalculatorTests {
 
         assertEquals(3, stringCalculator.add(testedString));
     }
+
+    @Test
+    public void showNegativeNumbersPassed() {
+        String testedString = "-1,1,2,-2,412,-3";
+
+        try {
+           stringCalculator.add(testedString);
+        }catch (Exception e){
+            assertEquals("Negatives not allowed. Negatives passed:[-1, -2, -3]",e.getMessage());
+        }
+    }
+
+    @Test
+    public void showNegativeNumbersPassedInAllLines() {
+        String testedString = "-1,1,2\n-2,3,4,5\n345,2,-3";
+
+        try {
+            stringCalculator.add(testedString);
+        }catch (Exception e){
+            assertEquals("Negatives not allowed. Negatives passed:[-1, -2, -3]",e.getMessage());
+        }
+    }
+
+    @Test
+    public void showNegativeNumbersPassedInAllLinesWithDelimiterChange() {
+        String testedString = "-1,1,2\n//+\n-2+3+4+5\n//***\n345***2***-3";
+
+        try {
+            stringCalculator.add(testedString);
+        }catch (Exception e){
+            assertEquals("Negatives not allowed. Negatives passed:[-1, -2, -3]",e.getMessage());
+        }
+    }
+
+    @Test
+    public void sumsStringWhenDelimiterIsMinus() {
+        String testedString = "//-\n1-1-2";
+
+        assertEquals(4, stringCalculator.add(testedString));
+    }
 }

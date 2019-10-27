@@ -69,8 +69,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTests">
-    <configuration name="StringCalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringCalculatorTests.showNegativeNumbersPassedInAllLinesWithDelimiterChange">
+    <configuration name="StringCalculatorTests.showNegativeNumbersPassed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculatorKata" />
       <extension name="coverage">
         <pattern>
@@ -80,28 +80,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCalculatorTests.sumsStringWithDelimiterAsSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StringCalculatorKata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
-      <option name="METHOD_NAME" value="sumsStringWithDelimiterAsSentence" />
+      <option name="METHOD_NAME" value="showNegativeNumbersPassed" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTests.sumsStringWithDelimiterAsSpecialSign" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTests.showNegativeNumbersPassedInAllLines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculatorKata" />
       <extension name="coverage">
         <pattern>
@@ -111,13 +96,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
-      <option name="METHOD_NAME" value="sumsStringWithDelimiterAsSpecialSign" />
+      <option name="METHOD_NAME" value="showNegativeNumbersPassedInAllLines" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTests.sumsStringWithDelimiterAsSpecialSigns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTests.showNegativeNumbersPassedInAllLinesWithDelimiterChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculatorKata" />
       <extension name="coverage">
         <pattern>
@@ -127,13 +112,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
-      <option name="METHOD_NAME" value="sumsStringWithDelimiterAsSpecialSigns" />
+      <option name="METHOD_NAME" value="showNegativeNumbersPassedInAllLinesWithDelimiterChange" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTests.sumsStringWithThreeNewDelimiterAndTwoNewLines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTests.showNegativeNumbersPassedWhenDelimiterIsMinus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculatorKata" />
       <extension name="coverage">
         <pattern>
@@ -143,26 +128,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
-      <option name="METHOD_NAME" value="sumsStringWithThreeNewDelimiterAndTwoNewLines" />
+      <option name="METHOD_NAME" value="showNegativeNumbersPassedWhenDelimiterIsMinus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTests.sumsStringWhenDelimiterIsMinus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculatorKata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.StringCalculatorTests" />
+      <option name="METHOD_NAME" value="sumsStringWhenDelimiterIsMinus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithThreeNewDelimiterAndTwoNewLines" />
-      <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithDelimiterAsSpecialSigns" />
-      <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithDelimiterAsSpecialSign" />
-      <item itemvalue="JUnit.StringCalculatorTests" />
-      <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithDelimiterAsSentence" />
+      <item itemvalue="JUnit.StringCalculatorTests.showNegativeNumbersPassed" />
+      <item itemvalue="JUnit.StringCalculatorTests.showNegativeNumbersPassedWhenDelimiterIsMinus" />
+      <item itemvalue="JUnit.StringCalculatorTests.sumsStringWhenDelimiterIsMinus" />
+      <item itemvalue="JUnit.StringCalculatorTests.showNegativeNumbersPassedInAllLines" />
+      <item itemvalue="JUnit.StringCalculatorTests.showNegativeNumbersPassedInAllLinesWithDelimiterChange" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCalculatorTests" />
-        <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithDelimiterAsSentence" />
-        <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithDelimiterAsSpecialSign" />
-        <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithDelimiterAsSpecialSigns" />
-        <item itemvalue="JUnit.StringCalculatorTests.sumsStringWithThreeNewDelimiterAndTwoNewLines" />
+        <item itemvalue="JUnit.StringCalculatorTests.showNegativeNumbersPassedInAllLinesWithDelimiterChange" />
+        <item itemvalue="JUnit.StringCalculatorTests.showNegativeNumbersPassedInAllLines" />
+        <item itemvalue="JUnit.StringCalculatorTests.sumsStringWhenDelimiterIsMinus" />
+        <item itemvalue="JUnit.StringCalculatorTests.showNegativeNumbersPassedWhenDelimiterIsMinus" />
+        <item itemvalue="JUnit.StringCalculatorTests.showNegativeNumbersPassed" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +177,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572168260475</updated>
-      <workItem from="1572168266198" duration="7027000" />
+      <workItem from="1572168266198" duration="8952000" />
     </task>
     <servers />
   </component>

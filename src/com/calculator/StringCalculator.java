@@ -1,13 +1,18 @@
 package com.calculator;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 import static java.util.Arrays.stream;
+import static java.util.regex.Pattern.LITERAL;
 
 public class StringCalculator {
     public int add(String numbersString) {
         String delimiter = ",";
         String[] lines = splitNumbersStringToLines(numbersString);
+        List<Integer> negativeNumbersPassed = new ArrayList<>();
         int sum = 0;
         for (String oneLine : lines) {
             oneLine = addZeroIfStringIsEmpty(oneLine);
@@ -16,10 +21,25 @@ public class StringCalculator {
             } else {
                 String[] numbersLineDivided = divide(oneLine, delimiter);
                 int[] numbers = parseToIntArray(numbersLineDivided);
+                negativeNumbersPassed.addAll(getNegativeNumbers(numbers));
                 sum += sumNumbers(numbers);
             }
         }
+        validateNegativeNumbersWereNotPassed(negativeNumbersPassed);
         return sum;
+    }
+
+    private void validateNegativeNumbersWereNotPassed(List<Integer> negativeNumbersPassed) {
+        if (!negativeNumbersPassed.isEmpty()) {
+            throw new IllegalArgumentException("Negatives not allowed. Negatives passed:" + negativeNumbersPassed.toString());
+        }
+    }
+
+    private List<Integer> getNegativeNumbers(int[] numbers) {
+        return stream(numbers)
+                .filter(number -> number < 0)
+                .boxed()
+                .collect(Collectors.toList());
     }
 
     private String getNewDelimiter(String line) {
@@ -50,6 +70,6 @@ public class StringCalculator {
     }
 
     private String[] divide(String numbersString, String delimiter) {
-        return Pattern.compile(delimiter, Pattern.LITERAL).split(numbersString);
+        return Pattern.compile(delimiter, LITERAL).split(numbersString);
     }
 }
