@@ -43,7 +43,11 @@ public class StringCalculator {
     }
 
     private String getNewDelimiter(String line) {
-        return line.replace("//", "");
+        line = line.replace("//", "");
+        if (line.length() > 1) {
+            return line.substring(1, line.length() - 1);
+        }
+        return line;
     }
 
     private boolean hasDelimiterChanged(String line) {
@@ -60,6 +64,7 @@ public class StringCalculator {
 
     private int sumNumbers(int[] numbers) {
         return stream(numbers)
+                .filter(number -> number < 1001)
                 .sum();
     }
 
